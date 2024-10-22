@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <title>Lumos | Home</title>
@@ -10,30 +11,36 @@
     <meta name="description" content="Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis">
     <meta name="author" content="Arpit Narechania">
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://lumos-vis.github.io/">
-	<meta property="og:title" content="Lumos">
-	<meta property="og:description" content="Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis">
-	<meta property="og:image" content="https://raw.githubusercontent.com/lumos-vis/lumos-vis.github.io/main/assets/images/overview.png">
-	<!--<meta property="og:video" content="">-->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://lumos-vis.github.io/">
+    <meta property="og:title" content="Lumos">
+    <meta property="og:description"
+        content="Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/lumos-vis/lumos-vis.github.io/main/assets/images/overview.png">
+    <!--<meta property="og:video" content="">-->
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="http://lumos-vis.github.io/">
-	<meta property="twitter:title" content="Lumos">
-	<meta property="twitter:description" content="Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis">
-	<meta property="twitter:image" content="https://raw.githubusercontent.com/lumos-vis/lumos-vis.github.io/main/assets/images/overview.png">
-	<meta property="twitter:site" content="@arpitnarechania">
-	<meta property="twitter:creator" content="@arpitnarechania">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://lumos-vis.github.io/">
+    <meta property="twitter:title" content="Lumos">
+    <meta property="twitter:description"
+        content="Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis">
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/lumos-vis/lumos-vis.github.io/main/assets/images/overview.png">
+    <meta property="twitter:site" content="@arpitnarechania">
+    <meta property="twitter:creator" content="@arpitnarechania">
 
     <link rel="shortcut icon" href="./assets/images/favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
     <script defer src="./assets/fontawesome/js/all.js"></script>
     <!-- Global CSS -->
     <link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->    
+    <!-- Plugins CSS -->
     <link rel="stylesheet" href="./assets/plugins/elegant_font/css/style.css">
     <link rel="stylesheet" href="./assets/plugins/prism/prism.css">
     <!-- Theme CSS -->
@@ -41,97 +48,222 @@
     <!-- Custom CSS -->
     <link id="custom-style" rel="stylesheet" href="./assets/css/custom.css">
 
-</head> 
+    <style>
+        .image-background {
+            width: 500px;
+            /* Set width of the div */
+            height: 300px;
+            /* Set height of the div */
+            background-image: url('./assets/images/overview.png');
+            /* Set the image as background */
+            background-size: cover;
+            /* Ensures the image covers the entire div */
+            background-position: center;
+            /* Centers the image in the div */
+            background-repeat: no-repeat;
+            /* Prevents the image from repeating */
+        }
+    </style>
+</head>
 
-<body class="landing-page">   
-	
-	<!-- GITHUB BUTTON JS -->
+<body class="landing-page">
+
+    <!-- GITHUB BUTTON JS -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <div class="page-wrapper">
-        
+
         <!-- ******Header****** -->
         <header class="header text-center">
             <div class="container">
                 <div class="branding">
                     <h1 class="logo">
-                        <!--<span class="text-highlight">Lumos</span>-->
-                        <img src="./assets/images/logo.png" class="img-center" width="200" alt="Lumos logo"/>
+                        <img src="./assets/images/logo.png" class="img-center" width="250" alt="Lumos logo" />
                     </h1>
                 </div><!--//branding-->
                 <div class="tagline">
-                    <p>Increasing Awareness of Analytic Behavior during Visual Data Analysis</p>
-                    <small>Georgia Tech, Emory University</small>
+                    <p>Mitigating Exploration Biases during Visual Data Analysis</p>
+                    <small>Georgia Institute of Technology, Emory University</small>
                 </div><!--//tagline-->
                 <div class="cta-container">
-                    <a class="btn btn-primary btn-cta m-xs" href="http://github.com/lumos-vis" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-                    &nbsp;&nbsp;
-                    <a class="btn btn-primary btn-cta m-xs" href="./lumos_research_paper_vis_2021.pdf" target="_blank" download><i class="fas fa-file-pdf"></i> Research Paper</a>
-                    &nbsp;&nbsp;
-                    <a class="btn btn-primary btn-cta m-xs" href="./lumos_cridc_2021_poster.pdf" target="_blank" download><i class="fas fa-image"></i> Poster (CRIDC'21)</a>
-                    &nbsp;&nbsp;
-                    <a class="btn btn-orange btn-cta m-xs" href="https://lumos-webapp-4aeadb3bf30d.herokuapp.com/" target="_blank"><i class="fas fa-rocket"></i> Live Demo</a>
+                    <a class="btn btn-primary btn-cta m-xs" href="http://github.com/lumos-vis" target="_blank"><i
+                            class="fab fa-github"></i> View on GitHub</a>
                 </div><!--//cta-container-->
 
             </div><!--//container-->
         </header><!--//header-->
-        
+
         <section class="cards-section text-center">
             <div class="container">
                 <div class="intro">
-                    <h2 class="title">Welcome to Lumos</h2>
-                    <p class="text-left">Visual data analysis tools provide people with the agency and flexibility to explore data using a variety of interactive functionality. However, this flexibility may introduce potential consequences in situations where users unknowingly over- or under-emphasize specific subsets of the data or attribute space they are analyzing. For example, users may overemphasize specific attributes and/or their values (e.g., Gender is always encoded on the X axis), underemphasize others (e.g., Religion is never encoded), ignore a subset of the data (e.g., older people are filtered out), etc.</p>
-                    <p class="text-left">Lumos is a visual data analysis tool that captures and shows the interaction history with data to increase awareness of such analytic behaviors. Using in-situ (at the place of interaction) and ex-situ (in an external view) visualization techniques, Lumos provides real-time feedback to users for them to reflect on their activities. For example, Lumos highlights datapoints that have been previously examined in the same visualization (in-situ) and also overlays them on the underlying data distribution (i.e., baseline distribution) in a separate visualization (ex-situ). Through a user study with 24 participants, we investigate how Lumos helps users' data exploration and decision-making processes. We found that Lumos increases users' awareness of visual data analysis practices in real-time, promoting reflection upon and acknowledgement of their intentions and potentially influencing subsequent interactions.</p>
-		    <br/>
-                    <h2 class="title">Video Overview</h2>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PuGotlGpqgY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <h2>Hi, Welcome to the Lumos Organization!</h2>
+                    <br />
+                    <p class="text-left">Visual data analysis tools provide people with the agency and flexibility to
+                        explore data using a variety of interactive functionality. However, this flexibility may
+                        introduce potential consequences in situations where users unknowingly over- or under-emphasize
+                        specific subsets of the data or attribute space they are analyzing. For example, users may
+                        overemphasize specific attributes and/or their values (e.g., Gender is always encoded on the X
+                        axis), underemphasize others (e.g., Religion is never encoded), ignore a subset of the data
+                        (e.g., older people are filtered out), etc.
+                    </p>
+                    <p class="text-left">To increase awareness of and mitigate such "exploration biases", we have thus far undertaken three projects: BiasBuzz (ACM CHI LBW'24); Left, Right, and Gender (IEEE VIS'21); and Lumos (IEEE VIS'21). Check them out!!!</p>
+                    <hr>
+                    <div>
+                        <h4><strong>BiasBuzz</strong></h4>
+                        <h5><i>Combining Visual Guidance with Haptic Feedback</i></h5>
+                        <h6 class="text-secondary text-bold">Jamal Paden*, Arpit Narechania*, Alex Endert</h6>
+                        <div>(* equal contribution)</div>
+                        <br/>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/8Wm7GvN9c90?rel=0&amp;showinfo=0" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                        <br />
+                        <div>
+                            <a class="btn btn-info btn-cta m-xs" href="https://arpitnarechania.github.io/docs/publications/biasbuzz_chi_2024.pdf"
+                                target="_blank" download><i class="fas fa-file-pdf"></i> Paper (ACM CHI LBW'24)</a>
+                            &nbsp;&nbsp;
+                            <a class="btn btn-success btn-cta m-xs" href="https://arpitnarechania.github.io/docs/posters/biasbuzz_chi_2024.pdf" target="_blank"
+                                download><i class="fas fa-image"></i> Poster</a>
+                        </div>
+                        </br>
+                        <p class="text-left">
+                            During visual data analysis, users may inadvertently focus more on certain aspects of data, affecting analysis outcome(s). Existing tools primarily rely on visual cues (e.g., highlight already visited data) to increase user awareness of such analytic behaviors. We believe this single, visual modality is a passive form of guidance that adds to users' cognitive load already engaged in analysis. We investigate how a dual modality (visual guidance and haptic feedback) can capture users' attention and more actively guide them in their pursuits. We interface an existing visual data analysis tool with a gaming mouse. This enhanced system tracks user interactions and communicates biases by vibrating the mouse (haptic) and simultaneously displaying contextual information in the tool (visual). A formative study with nine users revealed that this dual modality increased analytical awareness in some cases but some users found the haptic mouse vibrations to be distracting and disturbing, informing the design of future multimodal user interfaces.
+                        </p>
+                        <div class="text-left">
+                            <p><strong>Citation:</strong></p>
+                            <pre style="background: #efefef">
+
+    @article{paden2024biasbuzz,
+        title={{BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis}},
+        author={Paden, Jamal and Narechania, Arpit and Endert, Alex},
+        journal={ACM CHI LBW},
+        year={2024},
+        publisher={ACM},
+        url={https://doi.org/10.1145/3613905.3651064}
+    }
+                            </pre>
+                        </div>
                     </div>
-                    <br/>
-                    <img src="./assets/images/overview.png" class="img-teaser img-center" alt="Lumos Overview"/>
+                    <hr>
+                    <div>
+                        <h4><strong>Left, Right, and Gender</strong></h4>
+                        <h5><i>Exploring Interaction Traces to Mitigate Human Biases</i></h5>
+                        <h6 class="text-secondary text-bold">Emily Wall*, Arpit Narechania*, Adam Coscia, Jamal Paden, Alex Endert</h6>
+                        <div>(* equal contribution)</div>
+                        <br/>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/hdKZnSeg-Hw?rel=0&amp;showinfo=0" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                        <br />
+                        <div>
+                            <a class="btn btn-info btn-cta m-xs" href="https://arpitnarechania.github.io/docs/publications/left-right-gender_vis_2021.pdf"
+                                target="_blank" download><i class="fas fa-file-pdf"></i> Paper (IEEE VIS'21)</a>
+                            &nbsp;&nbsp;
+                            <a class="btn btn-dark btn-cta m-xs" href="https://youtu.be/z_DHjMe7ZZg"
+                                target="_blank"><i class="fas fa-video"></i> Talk (IEEE VIS'21)</a>
+                        </div>
+                        </br>
+                        <p class="text-left">
+                            Human biases impact the way people analyze data and make decisions. Recent work has shown that some visualization designs can better support cognitive processes and mitigate cognitive biases (i.e., errors that occur due to the use of mental "shortcuts"). In this work, we explore how visualizing a user's interaction history (i.e., which data points and attributes a user has interacted with) can be used to mitigate potential biases that drive decision making by promoting conscious reflection of one's analysis process. Given an interactive scatterplot-based visualization tool, we showed interaction history in real-time while exploring data (by coloring points in the scatterplot that the user has interacted with), and in a summative format after a decision has been made (by comparing the distribution of user interactions to the underlying distribution of the data). We conducted a series of in-lab experiments and a crowd-sourced experiment to evaluate the effectiveness of interaction history interventions toward mitigating bias. We contextualized this work in a political scenario in which participants were instructed to choose a committee of 10 fictitious politicians to review a recent bill passed in the U.S. state of Georgia banning abortion after 6 weeks, where things like gender bias or political party bias may drive one's analysis process. We demonstrate the generalizability of this approach by evaluating a second decision making scenario related to movies. Our results are inconclusive for the effectiveness of interaction history (henceforth referred to as interaction traces) toward mitigating biased decision making. However, we find some mixed support that interaction traces, particularly in a summative format, can increase awareness of potential unconscious biases.
+                        </p>
+                        <div class="text-left">
+                            <p><strong>Citation:</strong></p>
+                            <pre style="background: #efefef">
+
+    @article{wall2021lrg,
+        title={{Left, Right, and Gender: Exploring Interaction Traces to Mitigate Human Biases}},
+        author={Wall, Emily and Narechania, Arpit and Coscia, Adam and Paden, Jamal and Endert, Alex},
+        journal={IEEE TVCG},
+        year={{2022}},
+        url={https://doi.org/10.1109/TVCG.2021.3114862},
+        publisher={IEEE}
+    }
+                            </pre>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div>
+                        <h4><strong>Lumos</strong></h4>
+                        <h5><i>Increasing Awareness of Analytic Behavior during Visual Data Analysis</i></h5>
+                        <h6 class="text-secondary text-bold">Arpit Narechania, Adam Coscia, Emily Wall, Alex Endert</h6>
+                        <div>(* equal contribution)</div>
+                        <br/>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/PuGotlGpqgY?rel=0&amp;showinfo=0" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                        <br />
+                        <div>
+                            <a class="btn btn-info btn-cta m-xs" href="https://arpitnarechania.github.io/docs/publications/lumos_vis_2021.pdf"
+                                target="_blank" download><i class="fas fa-file-pdf"></i> Paper (IEEE VIS'21)</a>
+                            &nbsp;&nbsp;
+                            <a class="btn btn-dark btn-cta m-xs" href="https://youtu.be/ZEfgMYWi-9g"
+                                target="_blank"><i class="fas fa-video"></i> Talk (IEEE VIS'21)</a>
+                            &nbsp;&nbsp;
+                            <a class="btn btn-success btn-cta m-xs" href="https://arpitnarechania.github.io/docs/posters/lumos_cridc_2021.pdf" target="_blank"
+                                download><i class="fas fa-image"></i> Poster (CRIDC'21)</a>
+                            &nbsp;&nbsp;
+                            <a class="btn btn-orange btn-cta m-xs"
+                                href="https://lumos-webapp-4aeadb3bf30d.herokuapp.com/" target="_blank"><i
+                                    class="fas fa-rocket"></i> Live Demo</a>
+                        </div>
+                        </br>
+                        <p class="text-left">Lumos is a visual data analysis tool that captures and shows the
+                            interaction
+                            history with data to increase awareness of such analytic behaviors. Using in-situ (at the
+                            place
+                            of interaction) and ex-situ (in an external view) visualization techniques, Lumos provides
+                            real-time feedback to users for them to reflect on their activities. For example, Lumos
+                            highlights datapoints that have been previously examined in the same visualization (in-situ)
+                            and
+                            also overlays them on the underlying data distribution (i.e., baseline distribution) in a
+                            separate visualization (ex-situ). Through a user study with 24 participants, we investigate
+                            how
+                            Lumos helps users' data exploration and decision-making processes. We found that Lumos
+                            increases
+                            users' awareness of visual data analysis practices in real-time, promoting reflection upon
+                            and
+                            acknowledgement of their intentions and potentially influencing subsequent interactions.
+                        </p>
+                        <div class="text-left">
+                            <p><strong>Citation:</strong></p>
+                            <pre style="background: #efefef">
+
+    @article{narechania2021lumos,
+        title={{Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis}},
+        author={Narechania, Arpit and Coscia, Adam and Wall, Emily and Endert, Alex},
+        journal={IEEE TVCG},
+        year={{2022}},
+        url={https://doi.org/10.1109/TVCG.2021.3114827}],
+        publisher={IEEE}
+    }
+                            </pre>
+                        </div>
+                    </div>
                 </div><!--//intro-->
-                <br/>
-                <h2 class="title">Check out the source code and other resources!</h2>
-                <br/>
-                <div class="cards-wrapper row">
-                    <div class="item item-pink col-lg-6 col-6">
-                        <div class="item-inner">
-                            <div class="icon-holder">
-                                <span aria-hidden="true" class="icon icon_datareport"></span>
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Lumos Source Code</h3>
-                            <p class="intro">Explore in-situ and ex-situ interaction traces. Includes Frontend and Backend.</p>
-                            <a class="link" target="_blank" href="https://github.com/lumos-vis/lumos"><span></span></a>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item item-blue col-lg-6 col-6">
-                        <div class="item-inner">
-                            <div class="icon-holder">
-                                <span aria-hidden="true" class="icon icon_documents"></span>
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Supplemental Material</h3>
-                            <p class="intro">Raw Interaction Logs of users and analysis results that support the evaluation.</p>
-                            <a class="link" target="_blank" href="https://github.com/lumos-vis/supplemental-material"><span></span></a>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                </div><!--//cards-->
             </div><!--//container-->
         </section><!--//cards-section-->
     </div><!--//page-wrapper-->
-    
+
     <footer class="footer text-center">
         <div class="container">
             <p>
-                Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis<br/>
-                <small>Georgia Institute of Technology, Emory University &nbsp;&copy;&nbsp;2021</small>
+                Lumos Organization<br />
+                <small>Georgia Institute of Technology, Emory University &nbsp;&copy;&nbsp;2024</small>
             </p>
             <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a
+                    href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
         </div><!--//container-->
     </footer><!--//footer-->
-    
-     
-    <!-- Main Javascript -->          
+
+
+    <!-- Main Javascript -->
     <script type="text/javascript" src="./assets/plugins/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="./assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./assets/plugins/prism/prism.js"></script>
@@ -141,5 +273,5 @@
     <script type="text/javascript" src="./assets/js/main.js"></script>
 
 </body>
-</html> 
 
+</html>
